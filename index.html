@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RapidFlex - Cotiza tu Envío</title>
+  <link rel="stylesheet" href="estilos-azul.css">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  
+  
+ 
+
+
+  <!-- Splash screen -->
+  <div class="splash" id="splash" onclick="hideSplash()">
+    <img src="https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/logo2.jpg?raw=true" alt="Logo" />
+
+  </div>
+
+  <!-- Encabezado simple -->
+  <header>
+    <div class="header-left" style="display:flex; align-items:center; gap: 15px;">
+      <img src="https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/logo2.jpg?raw=true" alt="RapidFlex Logo" style="width:80px; height:80px;">
+
+
+      <h1 style="color:#007BFF; font-size:28px;">Bienvenidos a RapidFlex</h1>
+    </div>
+    
+    <nav>
+      <a href="#" onclick="openModal('modalRepartidor')">Unete a Nuestro Equipo</a>
+      <a href="#" onclick="">Nosotros</a>
+      <a href="#" onclick="">Descargas</a>
+      <a href="#" onclick="">Administracion</a>
+    </nav>
+  </header>
+ 
+  
+  
+
+
+
+
+  
+ 
+  <!-- Sección con imagen de la van -->
+
+
+<!-- Sección con imagen -->
+<section class="van-section">
+  <div class="info-inicio">
+    <p>
+      Realizamos entregas express<br>
+      el mismo día en tu<br>
+      ciudad servicio seguro<br> 
+      rápido y eficiente <br>
+      para tu empresa.
+    </p>
+
+    <p>
+      Queremos ser tu Primera opción<br>
+      Nuestro Compromiso es Entregar a Tiempo<br>
+      Ofrecemos Calidad Y Responsabilidad
+      
+    </p>
+  </div>
+  <div class="info-inicio2">
+   <!-- en veremos? -->
+
+
+  </div>
+  
+  
+  
+  <button class="cotiza-button" onclick="openModal('modalEmpresa')">Cotizar</button>
+</section>
+  
+
+  <section class="benefits-section">
+    <div class="benefit-card">
+      <img src="https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/rejoj.png?raw=true" alt="Reloj" />
+
+      <h3>Flexibilidad que se adapta a ti</h3>
+      <p>Recogemos y entregamos el mismo día</p>
+    </div>
+
+    <div class="benefit-card">
+      <img src="https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/rayo.png?raw=true" alt="Rayo" />
+      <h3>Ultra rápido sin escalas</h3>
+      <p>Entrega garantizada si retiras antes de las 13:00 hrs</p>
+    </div>
+
+    <div class="benefit-card">
+      <img src="https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/caja.png?raw=true" alt="Caja" />
+      <h3>Entrega Hoy, sí o sí</h3>
+      <p>Tus paquetes se entregan en tiempo récord</p>
+    </div>
+  </section>
+
+  <section class="van-section2">
+    <!-- son la imagenes -->
+   
+  </section>
+
+
+  <section class="van-section3">
+    
+   <!-- son la imagenes -->
+  </section>
+  
+  <!-- Modal Empresa -->
+  <div id="modalEmpresa" class="modal">
+      <div class="modal-content">
+          <span class="close-btn" onclick="closeModal('modalEmpresa')">&times;</span>
+          <h2>Cotización</h2>
+          <form id="empresaForm">
+              <input type="text" name="nombre" placeholder="Nombre" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="tel" name="telefono" placeholder="Teléfono" required>
+              <textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+              <input type="hidden" name="status" value="Pendiente">
+              <button type="submit">Enviar</button>
+              <div class="loader" id="loaderEmpresa"></div>
+          </form>
+      </div>
+  </div>
+
+  <!-- Modal Repartidor -->
+  <div id="modalRepartidor" class="modal">
+      <div class="modal-content">
+          <span class="close-btn" onclick="closeModal('modalRepartidor')">&times;</span>
+          <h2>Registro Repartidor</h2>
+          <form id="repartidorForm">
+              <input type="text" name="nombre" placeholder="Nombre" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="tel" name="telefono" placeholder="Teléfono" required>
+              <input type="text" name="licencia" placeholder="Número de Licencia" required>
+              <textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+              <input type="hidden" name="status" value="Pendiente">
+              <button type="submit">Enviar</button>
+              <div class="loader" id="loaderRepartidor"></div>
+          </form>
+      </div>
+  </div>
+
+  
+   
+  
+
+
+  <footer>
+    <footer>
+      <center>
+        <p>&copy; 2025 RapidFlex. Todos los derechos reservados.</p>
+    
+        <div class="social-header">
+          <a href="https://www.facebook.com" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.instagram.com" class="instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://wa.me/" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://www.tiktok.com/@tucuenta" class="tiktok" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+          <a href="https://www.linkedin.com/in/tuusuario" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+      </center>
+    </footer>
+    
+</footer>
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>
