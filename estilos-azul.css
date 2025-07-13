@@ -334,25 +334,6 @@ footer p {
     opacity: 0.92;
   }
     
-/* Responsividad */
-@media screen and (max-width: 768px) {
-    .hero h1 {
-        font-size: 35px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero button {
-        padding: 12px 30px;
-        font-size: 16px;
-    }
-
-    .header-left img {
-        height: 50px;
-    }
-}
 
 /* Clase utilitaria */
 .hidden {
@@ -367,21 +348,7 @@ footer p {
 }
 
  
- /* Sección principal con la imagen de la van */
- .van-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url('https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/celular.jpg?raw=true') center/cover no-repeat;
-}
-
  
-.van-section3 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url('https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/ultimo.jpg?raw=true') center/cover no-repeat;
-}
 
 /* Botón Cotizar */
 .cotiza-button {
@@ -471,9 +438,24 @@ footer p {
     transform: translateY(-5px);
   }
   
+  .benefit-icon {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .benefit-icon:hover {
+    transform: scale(1.8); /* Zoom suave al pasar el mouse */
+  }
+  
   .benefit-card img {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 1rem;
   }
   
@@ -487,66 +469,101 @@ footer p {
     font-size: 0.95rem;
     color: #202124;
   }
-
-@media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 15px;
-  }
-
-  nav a {
-    margin: 8px 0;
-    font-size: 14px;
-  }
-
-  .cotiza-button {
-    top: 80%;
-    left: 50%;
-    width: 60%;
-    height: auto;
-    padding: 15px 20px;
-    font-size: 20px;
-  }
-
-  .cotiza-content.alineado-izquierda {
-    top: 55%;
-    left: 5%;
-    max-width: 90%;
-  }
-
-  .cotiza-text,
-  .info-inicio,
-  .info-inicio2 {
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  .benefits-section {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
-
-  .benefit-card {
-    width: 90%;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero h1 {
-    font-size: 28px;
+/*reponsividad*/
+  @media screen and (max-width: 768px) {
+   
+   
+    .hero h1 {
+      font-size: 35px;
   }
 
   .hero p {
-    font-size: 16px;
+      font-size: 16px;
   }
 
   .hero button {
-    padding: 12px 25px;
-    font-size: 16px;
+      padding: 12px 30px;
+      font-size: 16px;
   }
 
-  .modal-content {
-    padding: 30px 20px;
+  .header-left img {
+      height: 50px;
   }
-}
+   
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 15px;
+    }
+  
+    nav a {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+  
+    .cotiza-button {
+      top: 80%;
+      left: 50%;
+      width: 60%;
+      height: auto;
+      padding: 15px 20px;
+      font-size: 20px;
+    }
+  
+    .cotiza-content.alineado-izquierda {
+      top: 55%;
+      left: 5%;
+      max-width: 90%;
+    }
+  
+    .cotiza-text,
+    .info-inicio,
+    .info-inicio2 {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .benefits-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+  
+    .benefit-card {
+      width: 90%;
+      margin-bottom: 1.5rem;
+    }
+  
+    .hero h1 {
+      font-size: 28px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+  
+    .hero button {
+      padding: 12px 25px;
+      font-size: 16px;
+    }
+  
+    .modal-content {
+      padding: 30px 20px;
+    }
+  
+    .van-section,
+    .van-section2,
+    .van-section3 {
+      background-size: contain;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 70vh;
+    }
+  
+    .header-left img {
+      height: 50px;
+    }
+  }
