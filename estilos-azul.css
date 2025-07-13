@@ -487,4 +487,66 @@ footer p {
     font-size: 0.95rem;
     color: #202124;
   }
-  
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  nav a {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .cotiza-button {
+    top: 80%;
+    left: 50%;
+    width: 60%;
+    height: auto;
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+
+  .cotiza-content.alineado-izquierda {
+    top: 55%;
+    left: 5%;
+    max-width: 90%;
+  }
+
+  .cotiza-text,
+  .info-inicio,
+  .info-inicio2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .benefits-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .benefit-card {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  .modal-content {
+    padding: 30px 20px;
+  }
+}
