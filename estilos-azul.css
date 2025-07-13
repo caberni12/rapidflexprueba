@@ -567,3 +567,17 @@ footer p {
       height: 50px;
     }
   }
+  /* Mayor separación solo en móviles y tablets */
+@media screen and (max-width: 1024px) {
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .splash video {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+}
+

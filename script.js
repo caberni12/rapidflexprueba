@@ -44,3 +44,14 @@ document.getElementById(formId).addEventListener('submit', e => {
 // Llamadas separadas para cada formulario
 handleFormSubmit('empresaForm', 'loaderEmpresa', 'modalEmpresa', scriptURL_Empresa);
 handleFormSubmit('repartidorForm', 'loaderRepartidor', 'modalRepartidor', scriptURL_Repartidor);
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      const splash = document.querySelector('.splash');
+      if (splash) {
+        splash.style.display = 'none';
+      }
+    }, 2000); // 2000 ms = 2 segundos
+  });
+
