@@ -575,11 +575,21 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+  .splash {
+    background: rgba(32, 33, 36, 0.9); /* fondo más tenue */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
   .splash video {
-    max-width: 90vw;
-    max-height: 50vh;
+    max-width: 80vw;
+    max-height: 40vh;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
 }
+
 
 /* Estilo de botones en la navegación */
 .nav-botones a {
