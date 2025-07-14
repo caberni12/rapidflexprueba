@@ -581,3 +581,40 @@ footer p {
   }
 }
 
+/* Estilo de botones en la navegación */
+.nav-botones a {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+}
+
+.nav-botones a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Adaptar navegación en móviles */
+@media screen and (max-width: 768px) {
+  .nav-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .nav-botones a {
+    flex: 1 1 45%;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+  }
+}
