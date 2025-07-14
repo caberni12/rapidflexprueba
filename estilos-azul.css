@@ -628,3 +628,21 @@ footer p {
     padding: 12px;
   }
 }
+/* —————  MÓVILES  ————— */
+@media screen and (max-width: 768px) {
+  .cotiza-button {
+    /* más alto */
+    padding: 22px 25px;   /* ↑↑ agranda el relleno vertical */
+    min-height: 85px;     /* asegura altura mínima */
+    font-size: 22px;      /* opcional: texto un poco mayor */
+  }
+}
+
+/* —————  TABLETS  ————— */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cotiza-button {
+    padding: 24px 30px;   /* aún más relleno */
+    min-height: 95px;     /* altura mínima para verse “grande” */
+    font-size: 24px;      /* acordamos el tamaño del texto */
+  }
+}
