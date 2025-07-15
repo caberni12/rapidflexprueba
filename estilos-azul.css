@@ -564,25 +564,50 @@ footer p {
     .modal-content {
       padding: 30px 20px;
     }
-
-.van-section,
-.van-section2,
-.van-section3 {
-  background-size: contain;
-  background-position: center top;
-  background-repeat: no-repeat;
-  height: 120vh;
-}
-
-@media (max-width: 768px) {
-  .van-section,
-  .van-section2,
-  .van-section3 {
-    height: auto;
-    background-size: cover; /* opcional según diseño */
-    padding: 60px 20px; /* agrega espacio si lo deseas */
-  }
-}
+    .van-section {
+      background-size: contain;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 70vh;
+    }
+    
+    @media (max-width: 768px) {
+      .van-section {
+        height: auto;
+        background-size: cover;
+        padding: 60px 20px;
+      }
+    }
+    
+    .van-section2 {
+      background-size: contain;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 70vh;
+    }
+    
+    @media (max-width: 768px) {
+      .van-section2 {
+        height: auto;
+        background-size: cover;
+        padding: 60px 20px;
+      }
+    }
+    .van-section3 {
+      background-size: contain;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 70vh;
+    }
+    
+    @media (max-width: 768px) {
+      .van-section3 {
+        height: auto;
+        background-size: cover;
+        padding: 60px 20px;
+      }
+    }
+    
 
   
     .header-left img {
