@@ -564,40 +564,7 @@ footer p {
     .modal-content {
       padding: 30px 20px;
     }
-    @media (max-width: 768px) {
-      .van-section {
-        background-size: cover;               /* Sin zoom */
-        background-position: center top;
-        background-repeat: no-repeat;
-        height: 55vh;
-        margin: 16px;
-        padding: 0;
-        border-radius: 16px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        overflow: hidden;
-      }
-    
-      .van-section2,
-      .van-section3 {
-        background-size: 100%;                /* ✅ Zoom activado */
-        background-position: center top;
-        background-repeat: no-repeat;
-        height: 50vh;
-        margin: 0;
-        padding: 0;
-        border-radius: 0;
-        box-shadow: none;
-        margin-top: -50px;
-      }
-    }
-    
    
-    
-    
-    
-    
-
-
     .header-left img {
       height: 70px;
     }
@@ -725,6 +692,20 @@ section.banner img {
   }
 }
 
+
+@media (max-width: 768px) {
+  .van-section {
+    background-size: cover;
+    background-position: 40% top;  /* Mueve la imagen a la izquierda */
+    background-repeat: no-repeat;
+    height: 55vh;
+    margin: 16px;
+    padding: 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+   }
+  } 
 
 
 
