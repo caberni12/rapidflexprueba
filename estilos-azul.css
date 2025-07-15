@@ -565,25 +565,32 @@ footer p {
       padding: 30px 20px;
     }
     .van-section,
-    .van-section2,
-    .van-section3 {
-      background-size: contain;
-      background-position: center top;
-      background-repeat: no-repeat;
-      height: 70vh;
-    }
-    
-    /* 🌐 Solo en pantallas pequeñas */
-    @media (max-width: 768px) {
-      .van-section,
-      .van-section2,
-      .van-section3 {
-        height: auto;
-        background-size: cover;  /* opcional, puedes dejar 'contain' si lo prefieres */
-        padding: 60px 20px;
-        margin-bottom: 10mm; /* ✅ separación solo en responsive */
-      }
-    }
+.van-section2,
+.van-section3 {
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 70vh; /* altura base en escritorio */
+}
+
+/* 🌐 Ajustes SOLO para móviles y tablets */
+@media (max-width: 768px) {
+  .van-section {
+    height: 70vh;
+    background-size: cover;
+    padding: 60px 20px;
+    margin-bottom: 10mm;
+  }
+
+  .van-section2,
+  .van-section3 {
+    height: 70vh; /* ✅ mismo alto que la primera */
+    background-size: cover;
+    padding: 60px 20px;
+    margin-bottom: 10mm;
+  }
+}
+
     
 
   
