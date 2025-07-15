@@ -564,14 +564,13 @@ footer p {
     .modal-content {
       padding: 30px 20px;
     }
-    
     @media (max-width: 768px) {
       .van-section {
-        background-size: cover;
+        background-size: cover;               /* Sin zoom */
         background-position: center top;
         background-repeat: no-repeat;
         height: 55vh;
-        margin: 16px; /* agrega espacio alrededor */
+        margin: 16px;
         padding: 0;
         border-radius: 16px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -580,7 +579,7 @@ footer p {
     
       .van-section2,
       .van-section3 {
-        background-size: contain;
+        background-size: 130%;                /* ✅ Zoom activado */
         background-position: center top;
         background-repeat: no-repeat;
         height: 42vh;
@@ -591,6 +590,7 @@ footer p {
       }
     }
     
+   
     
     
     
