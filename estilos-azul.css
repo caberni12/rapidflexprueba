@@ -683,29 +683,51 @@ footer p {
     top: 88%; /* 🔼 antes era 90%, ahora 88% para subirlo 2mm aprox */
   }
 }
-
-.imagen-banner {
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto 40px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.imagen-banner img {
+
+ /* Reset básico */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Sección de banner */
+section.banner {
   width: 100%;
   display: block;
-  height: auto;
 }
 
-/* Responsive */
+section.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive opcional (aunque ya funciona sin esto) */
 @media (max-width: 768px) {
-  .imagen-banner {
-    margin: 0 16px 32px 16px;
-    max-width: 100%;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  section.banner img {
+    width: 100%;
+    height: auto;
   }
 }
+
+@media (min-width: 769px) {
+  section.banner img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
 
 .clientes-slider {
   overflow: hidden;
@@ -746,5 +768,40 @@ footer p {
 
   .cliente {
     width: 100px;
+  }
+}
+
+section.banner {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+section.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive para tablet y móviles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  section.banner {
+    margin-bottom: 20px;
+  }
+
+  section.banner img {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  section.banner img {
+    border-radius: 8px;
   }
 }
