@@ -696,7 +696,7 @@ section.banner img {
 @media (max-width: 768px) {
   .van-section {
     background-size: cover;
-    background-position: 40% top;  /* Mueve la imagen a la izquierda */
+    background-position: 20% top;  /* Mueve la imagen a la izquierda */
     background-repeat: no-repeat;
     height: 55vh;
     margin: 16px;
