@@ -565,7 +565,22 @@ footer p {
       padding: 30px 20px;
     }
     
-    .van-section,
+    .van-section {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 100px 20px; /* espacio interno para que el texto no quede pegado */
+      margin-bottom: 10mm;
+      color: white; /* opcional, por si el fondo es oscuro */
+    }
+    @media (max-width: 768px) {
+      .van-section {
+        padding: 80px 16px;
+        background-size: cover;
+        margin-bottom: 10mm;
+      }
+    }
+          
 .van-section2,
 .van-section3 {
   background-size: contain;
