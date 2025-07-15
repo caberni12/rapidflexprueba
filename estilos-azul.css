@@ -576,23 +576,19 @@ footer p {
   margin-bottom: 0;
 }
 
-/* ✅ SOLO en móviles */
 @media (max-width: 768px) {
-  .van-section {
-    height: 70vh;             /* MÁS altura para .van-section */
-    background-size: contain;
-    margin-bottom: 0mm;
-    padding: 0 0px;
-  }
-
+  .van-section,
   .van-section2,
   .van-section3 {
-    height: 45vh;             /* Altura estándar para las otras */
-    background-size: contain;
-    margin-bottom: 5mm;
-    padding: 0 5px;
+    background-size: contain;       /* Muestra la imagen completa sin recortarla */
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 70vh;                   /* Más altura para que no se vea aplastada */
+    margin-bottom: 5mm;            /* Separación entre imágenes */
+    
   }
 }
+
 
 
     .header-left img {
