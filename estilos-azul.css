@@ -669,6 +669,7 @@ footer p {
     padding: 22px 25px;   /* ↑↑ agranda el relleno vertical */
     min-height: 85px;     /* asegura altura mínima */
     font-size: 22px;      /* opcional: texto un poco mayor */
+    top: 88%; /* 🔼 antes era 90%, ahora 88% para subirlo 2mm aprox */
   }
 }
 
@@ -678,6 +679,7 @@ footer p {
     padding: 24px 30px;   /* aún más relleno */
     min-height: 95px;     /* altura mínima para verse “grande” */
     font-size: 24px;      /* acordamos el tamaño del texto */
+    top: 88%; /* 🔼 antes era 90%, ahora 88% para subirlo 2mm aprox */
   }
 }
 
