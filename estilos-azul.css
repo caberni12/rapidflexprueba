@@ -696,7 +696,7 @@ section.banner img {
 @media (max-width: 768px) {
   .van-section {
       background-size: cover;
-      background-position: 55% top;  /* ✅ Esto mueve el foco hacia la derecha */
+      background-position: center top; /* 🔄 centrado horizontalmente */
       background-repeat: no-repeat;
       height: 55vh;
       margin: 16px;
@@ -704,8 +704,9 @@ section.banner img {
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
       overflow: hidden;
-   }
-  } 
+  }
+}
+
 
 
 
