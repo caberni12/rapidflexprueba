@@ -581,8 +581,8 @@ footer p {
   .van-section {
     height: 70vh;             /* MÁS altura para .van-section */
     background-size: contain;
-    margin-bottom: 5mm;
-    padding: 0 5px;
+    margin-bottom: 0mm;
+    padding: 0 0px;
   }
 
   .van-section2,
