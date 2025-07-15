@@ -579,7 +579,7 @@ footer p {
     
       .van-section2,
       .van-section3 {
-        background-size: 95%;                /* ✅ Zoom activado */
+        background-size: 85%;                /* ✅ Zoom activado */
         background-position: center top;
         background-repeat: no-repeat;
         height: 70vh;
