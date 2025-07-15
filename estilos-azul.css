@@ -571,21 +571,21 @@ footer p {
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
-  height: 70vh; /* altura base para escritorio */
+  height: 70vh; /* escritorio */
+  margin-bottom: 0;
 }
 
-/* 🌐 Ajustes para móviles */
+/* SOLO en móviles y tablets */
 @media (max-width: 768px) {
   .van-section,
   .van-section2,
   .van-section3 {
-    height: 70vh;             /* mismo alto */
-    background-size: contain; /* ✅ muestra toda la imagen */
-    padding: 20px;
-    margin-bottom: 10mm;
+    height: 100vh;             /* más altura en móvil */
+    background-size: contain; /* se ve toda la imagen */
+    margin-bottom: 10mm;      /* separación entre secciones */
+    padding: 0 16px;
   }
 }
-
 
     .header-left img {
       height: 70px;
