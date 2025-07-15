@@ -567,24 +567,30 @@ footer p {
     
     @media (max-width: 768px) {
       .van-section {
-        background-size: cover;               /* Llenar toda la sección */
+        background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
-        height: 55vh;                         /* Más alto */
-        margin: 0;
+        height: 55vh;
+        margin: 16px; /* agrega espacio alrededor */
         padding: 0;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
       }
     
       .van-section2,
       .van-section3 {
-        background-size: contain;            /* Mostrar imagen completa */
+        background-size: contain;
         background-position: center top;
         background-repeat: no-repeat;
         height: 42vh;
-        margin: 0;                           /* ❌ Sin separación entre van-section2 y van-section3 */
+        margin: 0;
         padding: 0;
+        border-radius: 0;
+        box-shadow: none;
       }
     }
+    
     
     
     
