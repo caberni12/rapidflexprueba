@@ -565,39 +565,25 @@ footer p {
       padding: 30px 20px;
     }
     
-    .van-section {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 100px 20px; /* espacio interno para que el texto no quede pegado */
-      margin-bottom: 10mm;
-      color: white; /* opcional, por si el fondo es oscuro */
-    }
-    @media (max-width: 768px) {
-      .van-section {
-        padding: 80px 16px;
-        background-size: cover;
-        margin-bottom: 10mm;
-      }
-    }
-          
+    
+.van-section,
 .van-section2,
 .van-section3 {
-  background-size: contain;
-  background-position: center top;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 70vh; /* escritorio */
+  height: auto;
   margin-bottom: 0;
 }
 
-/* SOLO en móviles y tablets */
+/* ✅ SOLO en móviles y tablets */
 @media (max-width: 768px) {
   .van-section,
   .van-section2,
   .van-section3 {
-    height: 100vh;             /* más altura en móvil */
-    background-size: contain; /* se ve toda la imagen */
-    margin-bottom: 10mm;      /* separación entre secciones */
+    height: 40vh;             /* altura reducida en móviles */
+    background-size: contain; /* ver imagen completa */
+    margin-bottom: 5mm;       /* separación entre imágenes */
     padding: 0 16px;
   }
 }
