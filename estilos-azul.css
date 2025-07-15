@@ -571,30 +571,22 @@ footer p {
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
-  height: 70vh; /* altura base en escritorio */
+  height: 70vh; /* altura base para escritorio */
 }
 
-/* 🌐 Ajustes SOLO para móviles y tablets */
+/* 🌐 Ajustes para móviles */
 @media (max-width: 768px) {
-  .van-section {
-    height: 70vh;
-    background-size: cover;
-    padding: 60px 20px;
-    margin-bottom: 10mm;
-  }
-
+  .van-section,
   .van-section2,
   .van-section3 {
-    height: 70vh; /* ✅ mismo alto que la primera */
-    background-size: cover;
-    padding: 60px 20px;
+    height: 70vh;             /* mismo alto */
+    background-size: contain; /* ✅ muestra toda la imagen */
+    padding: 20px;
     margin-bottom: 10mm;
   }
 }
 
-    
 
-  
     .header-left img {
       height: 70px;
     }
