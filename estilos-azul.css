@@ -579,14 +579,15 @@ footer p {
     
       .van-section2,
       .van-section3 {
-        background-size: 85%;                /* ✅ Zoom activado */
+        background-size: 90%;                /* ✅ Zoom activado */
         background-position: center top;
         background-repeat: no-repeat;
-        height: 70vh;
+        height: 50vh;
         margin: 0;
         padding: 0;
         border-radius: 0;
         box-shadow: none;
+        margin-bottom: auto;
       }
     }
     
@@ -709,7 +710,7 @@ footer p {
 .clientes-slider {
   overflow: hidden;
   width: 100%;
-  background: #fff;
+  background: #FFFFFF;
   padding: 40px 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
