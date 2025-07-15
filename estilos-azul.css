@@ -575,17 +575,16 @@ footer p {
   height: 100vh;
   margin-bottom: 0;
 }
-
 @media (max-width: 768px) {
   .van-section,
   .van-section2,
   .van-section3 {
-    background-size: contain;       /* Muestra la imagen completa sin recortarla */
+    background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
-    height: 70vh;                   /* Más altura para que no se vea aplastada */
-    margin-bottom: 5mm;            /* Separación entre imágenes */
-    
+    height: 42vh;              /* Altura equilibrada para que no se aplaste */
+    margin-bottom: 2mm;        /* Separación reducida entre imágenes */
+    padding: 0 10px;
   }
 }
 
