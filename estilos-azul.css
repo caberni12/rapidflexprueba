@@ -513,7 +513,7 @@ footer p {
     }
   
     .cotiza-button {
-      top: 80%;
+      top: 90%;
       left: 50%;
       width: 60%;
       height: auto;
@@ -581,9 +581,9 @@ footer p {
   .van-section,
   .van-section2,
   .van-section3 {
-    height: 40vh;             /* altura reducida en móviles */
+    height: 20vh;             /* altura reducida en móviles */
     background-size: contain; /* ver imagen completa */
-    margin-bottom: 5mm;       /* separación entre imágenes */
+    margin-bottom: 2mm;       /* separación entre imágenes */
     padding: 0 16px;
   }
 }
