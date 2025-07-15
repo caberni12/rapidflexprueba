@@ -567,27 +567,33 @@ footer p {
     
     
     .van-section,
-    .van-section2,
-    .van-section3 {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-      margin-bottom: 0;
-    }
-    
-    /* ✅ SOLO en móviles */
-    @media (max-width: 768px) {
-      .van-section,
-      .van-section2,
-      .van-section3 {
-        height: 45vh;             /* altura moderada en móviles */
-        background-size: contain; /* ver toda la imagen */
-        margin-bottom: 5mm;       /* separación entre imágenes */
-        padding: 0 5px;
-      }
-    }
-    
+.van-section2,
+.van-section3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+/* ✅ SOLO en móviles */
+@media (max-width: 768px) {
+  .van-section {
+    height: 70vh;             /* MÁS altura para .van-section */
+    background-size: contain;
+    margin-bottom: 5mm;
+    padding: 0 5px;
+  }
+
+  .van-section2,
+  .van-section3 {
+    height: 45vh;             /* Altura estándar para las otras */
+    background-size: contain;
+    margin-bottom: 5mm;
+    padding: 0 5px;
+  }
+}
+
 
     .header-left img {
       height: 70px;
