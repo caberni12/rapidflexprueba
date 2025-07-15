@@ -572,7 +572,7 @@ footer p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: auto;
+  height: 10px;
   margin-bottom: 0;
 }
 
@@ -581,10 +581,10 @@ footer p {
   .van-section,
   .van-section2,
   .van-section3 {
-    height: 20vh;             /* altura reducida en móviles */
+    height: 0vh;             /* altura reducida en móviles */
     background-size: contain; /* ver imagen completa */
     margin-bottom: 2mm;       /* separación entre imágenes */
-    padding: 0 16px;
+    padding: 0 5px;
   }
 }
 
