@@ -566,28 +566,27 @@ footer p {
     }
     
     
-    .van-section,
-.van-section2,
-.van-section3 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin-bottom: 0;
-}
-@media (max-width: 768px) {
-  .van-section,
-  .van-section2,
-  .van-section3 {
-    background-size: contain;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 42vh;              /* Altura equilibrada para que no se aplaste */
-    margin-bottom: 2mm;        /* Separación reducida entre imágenes */
-    padding: 0 10px;
-  }
-}
-
+    @media (max-width: 768px) {
+      .van-section {
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 55vh;     /* 🔼 Aumenta la altura */
+        margin-bottom: 0;
+        padding: 0;
+      }
+    
+      .van-section2,
+      .van-section3 {
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 42vh;
+        margin-bottom: 0;
+        padding: 0;
+      }
+    }
+    
 
 
     .header-left img {
