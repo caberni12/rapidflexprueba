@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9fafc;
+    background-color: #FFFFFF;
     color: #333;
     overflow-x: hidden;
     position: relative;
@@ -110,7 +110,7 @@ nav a:hover {
 .hero button {
     background-color: #202124
     ;
-    color: white;
+    color: #FFFFFF;
     padding: 15px 40px;
     border: none;
     border-radius: 50px;
@@ -139,7 +139,7 @@ nav a:hover {
 }
 
 .modal-content {
-    background: #f8f8f8;
+    background: #FFFFFF;
     padding: 50px 40px;
     border-radius: 15px;
     width: 95%;
@@ -161,7 +161,7 @@ nav a:hover {
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #FFFFFF;
     border-radius: 8px;
     font-size: 16px;
 }
@@ -269,7 +269,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #fdfcfc;
+    background-color: #FFFFFF;
     color: rgb(7, 7, 7);
     text-align: center;
     padding: 20px;
@@ -567,26 +567,25 @@ footer p {
     
     @media (max-width: 768px) {
       .van-section {
-        background-size: cover;
+        background-size: cover;               /* Llenar toda la sección */
         background-position: center top;
         background-repeat: no-repeat;
-        height: 55vh;     /* 🔼 Aumenta la altura */
-        margin-bottom: 0;
+        height: 55vh;                         /* Más alto */
+        margin: 0;
         padding: 0;
-        margin-top: 0;
       }
     
       .van-section2,
       .van-section3 {
-        background-size: contain;
+        background-size: contain;            /* Mostrar imagen completa */
         background-position: center top;
         background-repeat: no-repeat;
         height: 42vh;
-        margin-bottom: 0;
+        margin: 0;                           /* ❌ Sin separación entre van-section2 y van-section3 */
         padding: 0;
-        margin-top: 0;
       }
     }
+    
     
     
     
