@@ -28,7 +28,9 @@
   
 
   <!-- Encabezado simple -->
+ 
   <header>
+    
     <div class="header-left" style="display:flex; align-items:center; gap: 15px;">
       <img src="https://github.com/caberni12/rapidflexprueba/blob/5f5e8f6f857f38c0c61a9435c7e00434080f46bb/logo2.jpg?raw=true" alt="RapidFlex Logo" style="width:80px; height:80px;">
 
@@ -36,61 +38,82 @@
       <h1 style="color:#007BFF; font-size:28px;">Bienvenidos a RapidFlex</h1>
     </div>
     
-    <nav class="nav-botones">
-      <a href="#" onclick="openModal('modalRepartidor')">Registro Repartidor</a>
-      <a href="#novedades">Novedades</a>
-      <a href="#descargas">Descargas</a>
-      <a href="#admin">Administración</a>
     
+  <div class="slider-menu" id="sliderMenu">
+    <button class="menu-button" onclick="toggleMenu()">☰ Menú</button>
+    <ul>
+      <nav class="nav-botones">
+        <a href="#" onclick="openModal('modalRepartidor')">Registro Repartidor</a>
+        <a href="#novedades">Novedades</a>
+        <a href="#descargas">Descargas</a>
+        <a href="#admin">Administración</a>
+        
+        
       
-    </nav>
-    
-  </header>
- 
+       
+      </nav>
+      <center><h1 style="color:#007BFF; font-size:28px;">Clientes que confían en nuestra tecnología</h1></center>
+    </ul>
+  </div>
+
   
-<!--BARRA DE DESPLAZAMIENTO-->
-<center><h1 style="color:#007BFF; font-size:28px;">Clientes que confían en nuestra tecnología</h1></center>
-  <section class="clientes-slider">
+
+
+
+
     
-    <div class="slider-track">
-      
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/25455e481c6960239015f0c580aceada96781978/Shopify_logo_2018.png" alt="Shopify" style="width: 70px; height: 48px;">
-        <p></p>
-      </div>
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/Walmart-Logo.png" alt="Walmart" style="width: 70px; height: 48px;">
-        <p></p>
-      </div>
-      
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/logo-vectorial_falabella-com.jpg" alt="Falabella" style="width: 70px; height: 60px;">
-        <p></p>
-      </div>
-      
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/logoripley.png" alt="Ripley" style="width: 70px; height: 48px;">
-        <p></p>
-      </div>
-      
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/mercado-libre-logo.png" alt="Mercado Libre" style="width: 70px; height: 48mpx;">
-        <p></p>
-      </div>
-      
-      
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/toppng.com-logo-paris-cencosud-2013-logo-paris-474x474.png" alt="Paris" style="width: 70px; height: 48px;">
-        <p></p>
-      </div>
-      
-      <div class="cliente">
-        <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/58b7fee27d2d92479a6b176d8485ba960a2904f2/logojump.png" alt="Jump" style="width: 70px; height: 60px;">
-        <p></p>
-      </div>
-      
+   
+  </header>
+
+  <!--BARRA DE DESPLAZAMIENTO-->
+
+<section class="clientes-slider">
+    
+  <div class="slider-track">
+    
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/25455e481c6960239015f0c580aceada96781978/Shopify_logo_2018.png" alt="Shopify" style="width: 70px; height: 48px;">
+      <p></p>
     </div>
-  </section>
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/Walmart-Logo.png" alt="Walmart" style="width: 70px; height: 48px;">
+      <p></p>
+    </div>
+    
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/logo-vectorial_falabella-com.jpg" alt="Falabella" style="width: 70px; height: 60px;">
+      <p></p>
+    </div>
+    
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/logoripley.png" alt="Ripley" style="width: 70px; height: 48px;">
+      <p></p>
+    </div>
+    
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/mercado-libre-logo.png" alt="Mercado Libre" style="width: 70px; height: 48mpx;">
+      <p></p>
+    </div>
+    
+    
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/28c17a66ca0569ddd370268f708adc36c4603da2/toppng.com-logo-paris-cencosud-2013-logo-paris-474x474.png" alt="Paris" style="width: 70px; height: 48px;">
+      <p></p>
+    </div>
+    
+    <div class="cliente">
+      <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/58b7fee27d2d92479a6b176d8485ba960a2904f2/logojump.png" alt="Jump" style="width: 70px; height: 60px;">
+      <p></p>
+    </div>
+    
+  </div>
+</section>
+<section class="banner">
+  <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/3606032b0ba8f0de3cf03682b24430700f819a8a/celular2.png" alt="Garantía de servicio">
+</section>
+
+  
+
 
 <!-- Sección con imagen -->
 
@@ -131,9 +154,6 @@
   <img src="https://github.com/caberni12/rapidflexprueba/raw/3606032b0ba8f0de3cf03682b24430700f819a8a/garantia.png?raw=true" alt="Teléfono con mapa">
 </section>
 
-<section class="banner">
-  <img src="https://raw.githubusercontent.com/caberni12/rapidflexprueba/3606032b0ba8f0de3cf03682b24430700f819a8a/celular2.png" alt="Garantía de servicio">
-</section>
 
 
 <section class="benefits-section">

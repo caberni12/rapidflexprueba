@@ -55,3 +55,7 @@ handleFormSubmit('repartidorForm', 'loaderRepartidor', 'modalRepartidor', script
     }, 2000); // 2000 ms = 2 segundos
   });
 
+  function toggleMenu() {
+    const menu = document.getElementById('sliderMenu');
+    menu.classList.toggle('open');
+  }
