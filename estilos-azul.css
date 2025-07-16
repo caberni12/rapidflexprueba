@@ -823,7 +823,7 @@ section.banner img {
   border: 5px solid transparent;
   border-top: 5px solid #00D084;
   border-radius: 50%;
-  animation: spin 4s linear infinite;
+  animation: spin 7s linear infinite;
   z-index: 1;
 }
 
