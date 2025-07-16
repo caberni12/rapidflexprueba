@@ -815,7 +815,7 @@ section.banner img {
 .circle-loader {
   position: absolute;
   top: -35%;
-  left: 0%;
+  left: -20%;
   width: 750px;
   height: 750px;
   margin-left: -50px;
@@ -823,7 +823,7 @@ section.banner img {
   border: 5px solid transparent;
   border-top: 5px solid #00D084;
   border-radius: 50%;
-  animation: spin 3s linear infinite;
+  animation: spin 4s linear infinite;
   z-index: 1;
 }
 
@@ -835,19 +835,19 @@ section.banner img {
 
 /* Responsive: tamaño del loader en móviles */
 @media screen and (max-width: 768px) {
+  .splash-loader {
+    width: 160px;
+    height: 160px;
+  }
+
   .circle-loader {
-    width: 750px;
-    height: 750px;
-    margin-left: -40px;
-    margin-top: -40px;
+    width: 160px;
+    height: 160px;
     border-width: 4px;
   }
 
   .splash-loader img {
-    width: 180px;
-    max-width: 70%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 100px;
   }
 }
