@@ -845,8 +845,8 @@ section.banner img {
 
   .circle-loader {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     top: 20%;
     left: 30%;
     transform: translate(-50%, -50%); /* ✅ CENTRADO REAL */
