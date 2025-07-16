@@ -799,3 +799,55 @@ section.banner img {
     border-radius: 8px;
   }
 }
+.splash-loader {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.splash-loader img {
+  display: block;
+  z-index: 2;
+  position: relative;
+}
+
+/* El círculo giratorio */
+.circle-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  border: 5px solid transparent;
+  border-top: 5px solid #00D084;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 1;
+}
+
+/* Animación de rotación */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive: tamaño del loader en móviles */
+@media screen and (max-width: 768px) {
+  .circle-loader {
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+    border-width: 4px;
+  }
+
+  .splash-loader img {
+    width: 180px;
+    max-width: 70%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+}
