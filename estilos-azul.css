@@ -913,7 +913,9 @@ section.banner img {
 @media (max-width: 600px) {
   .menu-button {
     padding: 8px 12px;
-    font-size: 14px;
+    font-size: 18px;
+    width: 80px;
+    height: 80px;
   }
 
   .slider-menu ul li {
