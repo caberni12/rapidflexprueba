@@ -844,6 +844,11 @@ section.banner img {
     width: 160px;
     height: 160px;
     border-width: 4px;
+    top: -20px;
+
+
+
+
   }
 
   .splash-loader img {
