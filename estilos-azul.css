@@ -641,26 +641,33 @@ footer p {
     padding: 12px;
   }
 }
-/* —————  MÓVILES  ————— */
 @media screen and (max-width: 768px) {
   .cotiza-button {
-    /* más alto */
-    padding: 22px 25px;   /* ↑↑ agranda el relleno vertical */
-    min-height: 85px;     /* asegura altura mínima */
-    font-size: 22px;      /* opcional: texto un poco mayor */
-    top: 88%; /* 🔼 antes era 90%, ahora 88% para subirlo 2mm aprox */
+    top: 70%;              /* 🔼 más arriba (antes estaba en 88%-90%) */
+    left: 50%;
+    width: 80%;
+    height: auto;
+    padding: 22px 25px;
+    min-height: 85px;
+    font-size: 26px;       /* ✅ más grande */
+    border-radius: 30px;
   }
 }
 
 /* —————  TABLETS  ————— */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .cotiza-button {
-    padding: 24px 30px;   /* aún más relleno */
-    min-height: 95px;     /* altura mínima para verse “grande” */
-    font-size: 24px;      /* acordamos el tamaño del texto */
-    top: 88%; /* 🔼 antes era 90%, ahora 88% para subirlo 2mm aprox */
+    top: 68%;              /* 🔼 un poco más arriba que antes */
+    left: 50%;
+    width: 50%;
+    height: auto;
+    padding: 26px 30px;
+    min-height: 90px;
+    font-size: 28px;       /* ✅ más grande */
+    border-radius: 35px;
   }
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
