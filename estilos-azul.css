@@ -858,8 +858,8 @@ section.banner img {
   }
 
   .splash-loader img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     position: relative;
     z-index: 2;
   }
