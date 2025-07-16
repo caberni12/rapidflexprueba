@@ -847,8 +847,8 @@ section.banner img {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 30%;
-    left: 30%;
+    top: 10%;
+    left: 10%;
     transform: translate(-50%, -50%); /* ✅ CENTRADO REAL */
     border: 4px solid #ccc;
     border-top: 4px solid #00d084;
