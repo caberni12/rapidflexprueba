@@ -714,7 +714,6 @@ section.banner img {
 /* 📱 Responsive ajustes */
 @media (max-width: 768px) {
   .van-section {
-    background-size: contain;
     background-position: 65% top; /* mueve más a la derecha en móvil si es necesario */
     height: 55vh;
   }
