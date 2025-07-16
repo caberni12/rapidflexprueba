@@ -693,20 +693,13 @@ section.banner img {
 }
 
 
+/* 📱 Responsive ajustes */
 @media (max-width: 768px) {
   .van-section {
-      background-size: cover;
-      background-position: center top; /* 🔄 centrado horizontalmente */
-      background-repeat: no-repeat;
-      height: 55vh;
-      margin: 16px;
-      padding: 0;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      overflow: hidden;
+    background-position: 65% top; /* mueve más a la derecha en móvil si es necesario */
+    height: 55vh;
   }
 }
-
 
 
 
