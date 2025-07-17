@@ -607,15 +607,17 @@ footer p {
 /* Estilo de botones en la navegación */
 .nav-botones a {
   display: inline-block;
-  background-color: #007BFF;
+  background-color: #121213;
   color: white;
-  padding: 10px 18px;
+  padding: 25px 15px;
   margin: 5px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  font-size: 16px;
+  font-size: 20px;
+  width:20% ;
+  height: 25%;
 }
 
 .nav-botones a:hover {
@@ -630,7 +632,7 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 10px;
   }
 
@@ -868,14 +870,17 @@ section.banner img {
   position: fixed;
   top: 20px;
   right: 20px;
+  height: 10%;
+  width: 5%;
   z-index: 1001;
   background-color: #00D084;
-  color: white;
+  color: rgb(10, 10, 10);
   border: none;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .slider-menu {
@@ -883,7 +888,7 @@ section.banner img {
   top: -100%;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #FFFFFF;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   transition: top 0.4s ease-in-out;
