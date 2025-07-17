@@ -368,7 +368,7 @@ footer p {
     left: 20%;
     transform: translate(-50%, -50%);
     background-color: #00D084;
-    color: #007BFF ;
+    color: #070707 ;
     border: none;
     padding: 20px 40px;
     font-size: 36px;
@@ -621,7 +621,7 @@ footer p {
 }
 
 .nav-botones a:hover {
-  background-color: #030303;
+  background-color: #00d084;
   transform: scale(1.05);
 }
 
