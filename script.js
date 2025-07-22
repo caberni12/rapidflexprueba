@@ -1,5 +1,5 @@
 const scriptURL_Empresa = 'https://script.google.com/macros/s/AKfycbzhPW0E0oZsEZcRZ3y1gKTjcu47ROOTS12PkiGdMka2IilKsvNGMdzO4kGbdEy7tL-GNw/exec';
-const scriptURL_Repartidor = 'https://script.google.com/macros/s/AKfycbz8dexSm8sq_UF6Z4D9EqkCFKJLVnUqAseqgKdV7nNMEOZUzPSddhq5c7wqDx2E5AP--g/exec'; // Reemplaza esta URL
+const scriptURL_Repartidor = 'https://script.google.com/macros/s/AKfycbxxYI85VDSdZxxlDtmK7nG7bxitMKcyQ8TKa-45J3FOmbQL8Bo1ngAmdnkm6_5T4L7j/exec'; // Reemplaza esta URL
 
 function hideSplash() {
 document.getElementById('splash').classList.add('hidden');
